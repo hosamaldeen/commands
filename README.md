@@ -29,6 +29,14 @@ sudo chown -R apache folder
 #httpd
 cd /etc/httpd/conf
 
+** install sendmail**
+sudo apt-get install php-mail sendmail
+
+nano /etc/hosts
+127.0.0.1 localhost yourhostname
+
+sudo sendmailconfig
+
 /////////////////////
 ##mysql 
 
