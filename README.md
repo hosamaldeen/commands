@@ -7,9 +7,11 @@
 
 ``/etc/init.d/apache2 restart``
 
+
 **remove folder**
 
 ``rm -rf mydir``
+
 
 **zip & unzip**
 
@@ -17,13 +19,16 @@
 
 ``unzip myzip.zip``
 
+
 **watch error log**
 
 ``tail -f /var/log/httpd/testing-error.log``
 
+
 **change owner**
 
 ``sudo chown -R apache folder``
+
 
 **httpd**
 
@@ -40,14 +45,17 @@
 
 ``curl -sS https://getcomposer.org/installer | php
 mv composer.phar /usr/local/bin/composer``
+
 ``alias composer='/usr/local/bin/composer'``
 
 
 **install sendmail**
 
 ``sudo apt-get install php-mail sendmail``
+
 ``nano /etc/hosts
 127.0.0.1 localhost yourhostname``
+
 ``sudo sendmailconfig``
 
 # Mysql 
@@ -56,9 +64,11 @@ mv composer.phar /usr/local/bin/composer``
 
 ``mysql -p``
 
+
 **create new database**
 
 ``create database mygallery;``
+
 
 **import database**
 
