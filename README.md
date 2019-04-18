@@ -39,7 +39,7 @@
  
 **install git**
 
-``yum install git``
+``apt-get install git-core``
 
 **install composer**
 
