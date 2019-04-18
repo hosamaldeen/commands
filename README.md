@@ -1,3 +1,4 @@
+
 # General 
 
 **Restart Apache**
@@ -14,12 +15,14 @@
 **watch error log**
 ``tail -f /var/log/httpd/testing-error.log``
 
-**change owner **
+**change owner**
 ``sudo chown -R apache folder``
 
 **httpd**
 ``cd /etc/httpd/conf``
 
+##test
+``cd /etc/httpd/conf``
 
 # Installs
  
@@ -27,21 +30,17 @@
 ``yum install git``
 
 **install composer**
-``
-curl -sS https://getcomposer.org/installer | php
-mv composer.phar /usr/local/bin/composer
-alias composer='/usr/local/bin/composer' 
-``
+
+``curl -sS https://getcomposer.org/installer | php
+mv composer.phar /usr/local/bin/composer``
+``alias composer='/usr/local/bin/composer'``
+
 
 **install sendmail**
-``
-sudo apt-get install php-mail sendmail
-
-nano /etc/hosts
-127.0.0.1 localhost yourhostname
-
-sudo sendmailconfig
-``
+``sudo apt-get install php-mail sendmail``
+``nano /etc/hosts
+127.0.0.1 localhost yourhostname``
+``sudo sendmailconfig``
 
 # Mysql 
 
@@ -53,3 +52,5 @@ sudo sendmailconfig
 
 **import database**
 ``mysql -u username -p database_name < file.sql``
+
+
