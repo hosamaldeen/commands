@@ -64,6 +64,11 @@
 
 ``mysql -p``
 
+**create user**
+
+``CREATE USER 'newuser'@'localhost' IDENTIFIED BY 'password';``
+
+``GRANT ALL PRIVILEGES ON * . * TO 'newuser'@'localhost';``
 
 **create new database**
 
