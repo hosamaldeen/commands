@@ -53,8 +53,8 @@
 
 ``sudo apt-get install php-mail sendmail``
 
-``nano /etc/hosts
-127.0.0.1 localhost yourhostname``
+``nano /etc/hosts``
+``127.0.0.1 localhost yourhostname``
 
 ``sudo sendmailconfig``
 
