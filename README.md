@@ -43,11 +43,11 @@
 
 **install composer**
 
-``curl -sS https://getcomposer.org/installer | php
-mv composer.phar /usr/local/bin/composer``
+``sudo apt-get install curl``
 
-``alias composer='/usr/local/bin/composer'``
+``sudo curl -s https://getcomposer.org/installer | php``
 
+``sudo mv composer.phar /usr/local/bin/composer``
 
 **install sendmail**
 
