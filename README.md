@@ -49,6 +49,8 @@
 
 ``sudo mv composer.phar /usr/local/bin/composer``
 
+``alias composer='/usr/local/bin/composer'``
+
 **install sendmail**
 
 ``sudo apt-get install php-mail sendmail``
