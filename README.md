@@ -62,6 +62,11 @@
 
 # Mysql 
 
+**install phpmyadmin**
+``sudo add-apt-repository universe``
+``sudo apt install phpmyadmin``
+``sudo phpenmod mbstring``
+
 **enter mysql**
 
 ``mysql -p``
