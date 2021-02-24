@@ -63,9 +63,23 @@
 # Mysql 
 
 **install phpmyadmin**
+``apt install phpmyadmin php-mbstring php-gettext``
+or
 ``sudo add-apt-repository universe``
 ``sudo apt install phpmyadmin``
+then
 ``sudo phpenmod mbstring``
+
+to include route to httpd.conf or apache2.conf
+``nano /etc/apache2/apache2.conf`` ubunto
+``nano /etc/httpd/conf/httpd.conf`` centos
+add this line
+``Include /etc/phpmyadmin/apache.conf``
+
+to reconfigure it 
+``sudo dpkg-reconfigure phpmyadmin``
+
+
 
 **enter mysql**
 
