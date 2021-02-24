@@ -2,8 +2,8 @@
 # General 
 
 **Restart Apache**
-
-``sudo service httpd restart``
+``systemctl restart apache2`` ubunto
+``sudo service httpd restart`` centos
 
 ``/etc/init.d/apache2 restart``
 
